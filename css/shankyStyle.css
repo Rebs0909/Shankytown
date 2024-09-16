@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: hsl(166, 76%, 31%);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+    
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto; 
+}
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 35%;  /* Hacemos que ocupe toda la altura de la pantalla */
+    width: 100px;  /* Ajusta el ancho que desees para el menú */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;  /* Añade espacio entre los enlaces */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;  /* Hace que el enlace ocupe todo el ancho de su contenedor */
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;  /* Añade un color de fondo cuando se pase el mouse */
+}
+
+nav ul li:first-child a {
+    color: red;  /* Cambia el color del primer enlace a rojo */
+}
+
+/* Ajusta el contenido principal para que no quede debajo del menú */
+main {
+    margin-left: 20px;  /* Esto empuja el contenido principal a la derecha del menú */
+    padding: 30px;
+}
+
+p2 {
+    
+    text-align: center;
+}
